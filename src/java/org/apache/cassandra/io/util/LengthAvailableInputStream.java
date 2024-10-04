@@ -92,7 +92,5 @@ public class LengthAvailableInputStream extends FilterInputStream
 
     @Override
     public boolean markSupported()
-    {
-        return false;
-    }
+    { return false; }
 }
