@@ -34,9 +34,7 @@ public interface IAuthorizer extends AuthCache.BulkLoader<Pair<AuthenticatedUser
      * If false the authorizer will not be called for authorization of resources.
      */
     default boolean requireAuthorization()
-    {
-        return true;
-    }
+    { return true; }
 
     /**
      * Returns a set of permissions of a user on a resource.
